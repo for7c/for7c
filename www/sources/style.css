@@ -1,0 +1,95 @@
+body, html {
+    background-color: #b61924;
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#page-wrapper {
+    position: relative;
+    z-index: 2;
+    background-color: #b61924;
+    height: inherit;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.3);
+}
+
+input[type="text"], input[type="password"] {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 6px;
+    height: 30px;
+    width: 90%;
+    font-size: 20px;
+    background-color: #fff;
+    line-height: normal;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #b61924;
+    color: #fff;
+}
+
+input[type="submit"] {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #bbb;
+    transition: 1s;
+}
+
+input[type="submit"]:hover {
+    background-color: #b61924;
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    float: left;
+}
+
+span {
+    float: left;
+    color: #fff;
+    margin-left: 5%;
+}
+
+label {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
